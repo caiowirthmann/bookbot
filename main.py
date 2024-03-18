@@ -14,7 +14,7 @@ def main():
     print ()
     print (f'This book has {words_list} words in it')
     print ()
-    print ("And below is how many times each character appeared, in ascending order")
+    print ("And below is how many times each character appeared, in descending order")
     print ("="*49)
     create_book_report(sorted_list_characters)
     print ("="*49)
